@@ -43,3 +43,10 @@ console.log(employeeScore1 >= employeeScore2);
 console.log(employeeScore1 <= employeeScore2);
 console.log(employeeScore1 === employeeScore2);
 console.log(employeeScore1 !== employeeScore2);
+
+let hasKeyCard = true;
+let hasPermission = false;
+
+console.log(hasKeyCard && hasPermission);  // Access only if both are true
+console.log(hasKeyCard || hasPermission);  // Access if either is true
+console.log(!hasPermission);  // Reverse the permission status

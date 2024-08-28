@@ -33,3 +33,13 @@ console.log("After splitting:", accountBalance);
 
 accountBalance %= 300;  // Remainder after division
 console.log("Remainder after division:", accountBalance);
+
+let employeeScore1 = 85;
+let employeeScore2 = 92;
+
+console.log(employeeScore1 > employeeScore2);
+console.log(employeeScore1 < employeeScore2);
+console.log(employeeScore1 >= employeeScore2);
+console.log(employeeScore1 <= employeeScore2);
+console.log(employeeScore1 === employeeScore2);
+console.log(employeeScore1 !== employeeScore2);

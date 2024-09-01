@@ -16,3 +16,21 @@ const productDetails = {
 
 console.log(products);
 console.log(productDetails);
+
+
+let accountBalance = 2000;
+
+accountBalance += 600;  // Deposit
+console.log(accountBalance);
+
+accountBalance -= 300;  // Withdrawal
+console.log(accountBalance);
+
+accountBalance *= 2.05; // Interest
+console.log(accountBalance);
+
+accountBalance /= 2;    // Split into two accounts
+console.log(accountBalance);
+
+accountBalance %= 400;  // Remainder after an expense
+console.log(accountBalance);
